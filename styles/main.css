@@ -1,0 +1,147 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	color: #FFFFFF;	
+	background-image:url(../images/rosewoodgrain.jpg);
+	background-repeat: repeat;
+}
+
+a{
+    text-decoration: none;
+    color:maroon;
+}
+
+a:hover{
+    color:whitesmoke;
+}
+header {
+	background-image: url(../images/events/TCMCbannerExtract3501002.jpg);
+	border-radius:10px;
+}
+
+header img {
+	background-color:rgba(226, 230, 188, 0.78);
+	margin: 20px;
+}
+
+nav ul {
+	clear:both;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	list-style: none;
+	float: left;
+        display: inline;
+	background-color: chocolate;
+	font-size: 85%;
+        text-align: center;
+}
+
+
+nav ul a{
+	height:auto;
+	font-weight: bold;
+	color: black;
+        border: 1px solid chocolate;
+	padding: .735em 3.5em; /* 10px 15px */
+	text-decoration: none;
+}
+
+nav ul,li,a{
+    display:inline-block;
+	
+}
+
+nav ul li a:hover {
+	background:#5A3B34;
+	border: 1px solid #b9b8a5;
+}
+
+nav {
+	width:90%;
+	clear:both;	
+}
+header {
+	clear:both;
+	background-color:rgba(226, 230, 188, 0.85);
+}
+
+
+header img {
+	clear:both;
+	padding: 10px;
+}
+#content-wrapper {
+	margin: 20px auto;
+        float:left;
+        background-color: #23202045;
+        border-radius: 10px;
+        padding:20px;
+        display: inline-block;
+}
+
+#content-wrapper #sub-col1,#sub-col2{
+    float:left;
+    padding:10px;
+    margin: 10px;
+    background-color: #fbc3c32e;
+}
+#sub-col1{
+    max-width: 45%;
+    border: 5px solid maroon;
+    min-height: 100%;
+}
+#sub-col2{
+    max-width: 45%;
+    border: 5px solid maroon;
+    min-height: 100%;
+}
+
+
+#sub-col1 {
+	padding:10px;
+}
+.events img p{
+    clear:both;
+    margin-top:10px; 
+    float:left;
+}
+.events {
+    margin: 10px;
+    border: 10px solid black;
+    max-width: 800px;
+    border-radius: 10px;
+}
+
+
+
+footer {
+	clear:both;
+	background-color:#6418039c;
+	border-radius: 10px;
+	color:white;
+	
+	}
+
+#footer-col
+{
+    padding: 20px;
+	width: 100%;
+	margin: 1em 2em 0 0;
+}	
+        
+#footer-col ul li a{
+    color: white;
+    padding:20px;
+    float:left;
+}
+
+#copyright-wrapper p {
+	clear:both;	
+	padding: .5em 0 .5em .5em;
+	background-repeat: repeat-x;
+	position: bottom;
+}
